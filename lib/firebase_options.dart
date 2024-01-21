@@ -45,17 +45,17 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyD6f3s9HsYJ7D2ZXLM5AbnsTXdIHU-jJ64',
-    appId: '1:138021089357:web:b9d036fd7df96642aa2c04',
+    appId: '1:138021089357:web:239c8ec25e89ddfeaa2c04',
     messagingSenderId: '138021089357',
     projectId: 'my-cart-dbef5',
     authDomain: 'my-cart-dbef5.firebaseapp.com',
     storageBucket: 'my-cart-dbef5.appspot.com',
-    measurementId: 'G-TQ45YK2RSE',
+    measurementId: 'G-S675V45LBF',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBEplQzKard6iarxDPkmFGwbVoI1YK46K8',
-    appId: '1:138021089357:android:8daeceaa250a0e0eaa2c04',
+    appId: '1:138021089357:android:c361007f160972c4aa2c04',
     messagingSenderId: '138021089357',
     projectId: 'my-cart-dbef5',
     storageBucket: 'my-cart-dbef5.appspot.com',
@@ -63,23 +63,23 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyCnpOw0XDuR8Z092gQYbzKMVCrb07dJ1qA',
-    appId: '1:138021089357:ios:221b118a5110ed04aa2c04',
+    appId: '1:138021089357:ios:3e2cdce996239a3aaa2c04',
     messagingSenderId: '138021089357',
     projectId: 'my-cart-dbef5',
     storageBucket: 'my-cart-dbef5.appspot.com',
     androidClientId: '138021089357-b6gh5auhnh8tfgh0ebnr2gdt6j7kkfml.apps.googleusercontent.com',
-    iosClientId: '138021089357-16m7h77r22b4vsj3bp1n8094mp44tml0.apps.googleusercontent.com',
-    iosBundleId: 'com.example.myCart',
+    iosClientId: '138021089357-nvj76kor0gsq27ig8mvvmj0r2efnoh80.apps.googleusercontent.com',
+    iosBundleId: 'com.example.mCart',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyCnpOw0XDuR8Z092gQYbzKMVCrb07dJ1qA',
-    appId: '1:138021089357:ios:221b118a5110ed04aa2c04',
+    appId: '1:138021089357:ios:439bdaa95c70b5ffaa2c04',
     messagingSenderId: '138021089357',
     projectId: 'my-cart-dbef5',
     storageBucket: 'my-cart-dbef5.appspot.com',
     androidClientId: '138021089357-b6gh5auhnh8tfgh0ebnr2gdt6j7kkfml.apps.googleusercontent.com',
-    iosClientId: '138021089357-16m7h77r22b4vsj3bp1n8094mp44tml0.apps.googleusercontent.com',
-    iosBundleId: 'com.example.myCart',
+    iosClientId: '138021089357-cn3nv0rahn0gj6o5shud6fbd071ncrhq.apps.googleusercontent.com',
+    iosBundleId: 'com.example.mCart.RunnerTests',
   );
 }
