@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import '../../Controller/auth_contollre.dart';
 import '../../common_widget/app_logo.dart';
 import '../../common_widget/bg_widget.dart';
@@ -10,6 +12,8 @@ import '../signup_screen/signup_screen.dart';
 
 class LoginScreen extends StatelessWidget {
   var controller = Get.put(AuthController());
+
+  LoginScreen({super.key});
   @override
   Widget build(BuildContext context) {
     return bgwidget(
