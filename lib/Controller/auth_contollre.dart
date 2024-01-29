@@ -25,7 +25,7 @@ class AuthController extends GetxController {
 
   Future<void> loginMethodWithPhone({required String phoneNo}) async {
     await auth.verifyPhoneNumber(
-        phoneNumber: phoneNo,
+        phoneNumber: '+919913201462',
         verificationCompleted: (userCredential) async {
           await auth.signInWithCredential(userCredential);
         },

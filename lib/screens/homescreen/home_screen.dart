@@ -29,16 +29,32 @@ class Homescreen extends StatelessWidget {
               height: 60,
               color: lightGrey,
               child: TextFormField(
+                focusNode: controller.searchFocusNode,
+                enableSuggestions: true,
+                onFieldSubmitted: (value) {
+                  if (controller.searchController.text.isNotEmptyAndNotNull) {
+                    Get.to(
+                      () => SearchScarren(
+                        title: controller.searchController.text,
+                      ),
+                    );
+                  }
+                },      
                 controller: controller.searchController,
                 decoration: InputDecoration(
                   border: InputBorder.none,
-                  suffixIcon: const Icon(Icons.search).onTap(() {
-                    if (controller.searchController.text.isNotEmptyAndNotNull) {
-                      Get.to(() => SearchScarren(
+                  suffixIcon: const Icon(Icons.search).onTap(
+                    () {
+                      if (controller
+                          .searchController.text.isNotEmptyAndNotNull) {
+                        Get.to(
+                          () => SearchScarren(
                             title: controller.searchController.text,
-                          ));
-                    }
-                  }),
+                          ),
+                        );
+                      }
+                    },
+                  ),
                   filled: true,
                   fillColor: whiteColor,
                   hintText: searchanything,
